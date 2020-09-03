@@ -1,0 +1,11 @@
+array= list(map(int, input("enter by giving space").strip().split(' ')))
+array2=[True]*len(array)
+array2=array[::-1]
+print(array2)
+
+
+
+
+
+enter by giving space1 2 3 45 6
+[6, 45, 3, 2, 1]
